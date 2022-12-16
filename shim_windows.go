@@ -1,3 +1,4 @@
+//go:build windows
 // +build windows
 
 package webview
@@ -5,7 +6,7 @@ package webview
 import (
 	"unsafe"
 
-	"github.com/jchv/go-webview2"
+	"github.com/yrpark99/go-webview2"
 )
 
 type WebView = webview2.WebView
